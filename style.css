@@ -1,0 +1,49 @@
+.text{
+    width: 552px;
+height: 144px;
+gap: 0px;
+opacity: 0px;
+font-size:60px;
+font-weight:500;
+line-height:70px;
+}
+
+.text2{
+    width: 380px;
+height: 90px;
+gap: 0px;
+opacity: 0px;
+}
+
+#text3{
+    width: 296px;
+height: 72px;
+gap: 0px;
+opacity: 0px;
+}
+
+#text4{
+    width: 296px;
+height: 130px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+@media screen and (max-width:992px ) {
+ .text{ width:392px;
+    font-size: 50px;
+ }
+}
+
+
+@media screen and (max-width:400px ) {
+    .text{ width:302px;
+       font-size: 45px;
+    }
+
+    .text2{
+        font-size: 13px;
+        width: 302px;
+    }
+   }
